@@ -10,12 +10,13 @@
   padding-left: var(--container-padding);
   padding-right: var(--container-padding);
   background-color: var(--container-colour);
-  border-radius: 5%;
+  border-radius: 0.2em;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
-  font-size: calc(10px + 2vmin)
+  min-height: 10vh;
+  font-size: 2vmin;
+  margin-top: 1em;
 }
 
 .container {

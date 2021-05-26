@@ -8,3 +8,6 @@
   border-radius: 100px 100px 100px 100px;
   }
 
+  .btn:hover{
+    cursor: pointer;
+  }
