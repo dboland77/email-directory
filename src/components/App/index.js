@@ -69,10 +69,6 @@ const App = () => {
 
   return (
     <Fragment>
-      <EmailContainer>
-        <EmailList list={listData.list} onRemove={handleRemove} />
-      </EmailContainer>
-      )
       <Container>
         <Image file={uc} />
         <p>User email list</p>
@@ -82,6 +78,10 @@ const App = () => {
           handleClose={hideModal}
         />
       </Container>
+      
+      <EmailContainer>
+        <EmailList list={listData.list} onRemove={handleRemove} />
+      </EmailContainer>
     </Fragment>
   );
 };

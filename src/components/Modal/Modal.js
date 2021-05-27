@@ -29,9 +29,9 @@ import Button from "../Button/Button"
   }
 
   const handleFormSubmit = () => {
+    console.log("hello from form submit")
     fetchEmailData(email);
     setEmail('');
-    console.log(emaildata[0]);
   }
 
   const validateEmailFormat = () => {
@@ -55,6 +55,7 @@ import Button from "../Button/Button"
   }
 
   const renderEmailStatus = () => {
+    console.log("hello from renderEmailStatus")
     const emailData = emaildata[0];
 
     if (emailData !== undefined) {
@@ -91,7 +92,7 @@ import Button from "../Button/Button"
                </div>
                <Button onClick={handleSubmit}/>
              </form>
-             {renderEmailStatus()}
+             {/* {renderEmailStatus()} */}
               </section>
              
       </div>

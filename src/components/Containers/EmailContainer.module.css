@@ -13,10 +13,12 @@
   border-radius: 0.2em;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  min-height: 4vh;
-  font-size: 1em;
-  margin: 2vmin;
+  align-items: center;
+  min-height: 10vh;
+  font-size: 2vmin;
+  margin-top: 1em;
   max-width: var(--container-width) + var(--container-padding * 2);
   border: 1px solid black;
 }
+
+

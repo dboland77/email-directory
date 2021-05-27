@@ -6,11 +6,10 @@ export const FETCH_EMAILDATA = 'FETCH_USERS';
 
 export function fetchEmailData(query) {
   const q_url = `${EMAIL_URL}${query}`;
-  const request = axios.get(q_url);
-  return {
-    type: FETCH_EMAILDATA,
-    payload: request
-  };
+  const request = axios.get(q_url)
+  request.then(res=>console.log(res))
+  //console.log(request)
+  return request
 }
 
 // Note to self: I have disabled CORS in Safari to run this (development only)
