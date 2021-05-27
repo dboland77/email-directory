@@ -4,7 +4,7 @@
   --container-colour: white;
 }
 
-.container {
+.flexContainer {
   width: 75%;
   margin: 0 auto;
   padding-left: var(--container-padding);
@@ -13,12 +13,10 @@
   border-radius: 0.2em;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  min-height: 10vh;
-  font-size: 2vmin;
-  margin-top: 1em;
-}
-
-.container {
+  justify-content: flex-end;
+  min-height: 4vh;
+  font-size: 1em;
+  margin: 2vmin;
   max-width: var(--container-width) + var(--container-padding * 2);
+  border: 1px solid black;
 }

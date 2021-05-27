@@ -2,9 +2,7 @@ import React from 'react'
 
 const EnterEmail = () => {
   return (
-    <div>
-      
-    </div>
+    <input type="email" placeholder="Email"/>
   )
 }
 

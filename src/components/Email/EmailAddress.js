@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from './EmailAddress.module.css';
 
-const EmailAddress = () => {
+const EmailAddress = (props) => {
   return (
-    <div class = {styles.email}>
-      john@gmail.com x
+    <div class = {styles.address}>
+      {props.value} x
     </div>
   )
 }

@@ -1,0 +1,14 @@
+.btn {
+  background: radial-gradient(circle farthest-side, #ffdd68, #ffc900);
+  background-repeat: no-repeat;
+  padding: 1rem;
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 100px 100px 100px 100px;
+  margin: 2%;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
