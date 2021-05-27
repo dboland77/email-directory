@@ -17,3 +17,7 @@ body{
   background: rgb(57,209,255);
   background: linear-gradient(90deg, rgba(57,209,255,1) 35%, rgba(66,234,205,1) 100%);
 }
+
+li {
+  list-style-type: none;
+}
